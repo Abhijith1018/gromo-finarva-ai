@@ -1,0 +1,5 @@
+open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+
+chrome.exe --user-data-dir=c:/temp --disable-web-security
+
+Start-Process -FilePath "C:\Users\Abhijith\AppData\Local\Google\Chrome\Application\chrome.exe" -ArgumentList '--user-data-dir=C:/temp','--disable-web-security'
